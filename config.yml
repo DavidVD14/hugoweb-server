@@ -1,0 +1,40 @@
+baseURL: ""
+languageCode: en-us
+title: Malta E-Store
+theme: hugo-PaperMod
+
+params:
+  homeInfoParams:
+    Title: 'Hello Stranger'
+    Content: 'Welcome to my website'
+  socialIcons:
+    - name: Facebook
+      url: "https://www.facebook.com/profile.php?id=100010368526072"
+    - name: GitHub
+      url: "https://github.com/dvdking14"
+       
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
