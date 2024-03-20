@@ -5,13 +5,13 @@ theme: hugo-PaperMod
 
 params:
   homeInfoParams:
-    Title: 'Hello Stranger'
+    Title: 'Hello Visitor'
     Content: 'Welcome to my website'
   socialIcons:
     - name: Facebook
       url: "https://www.facebook.com/profile.php?id=100010368526072"
     - name: GitHub
-      url: "https://github.com/dvdking14"
+      url: "https://github.com/davidvd14"
        
   cover:
     linkFullImages: true
