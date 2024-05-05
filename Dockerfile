@@ -14,4 +14,4 @@ COPY . .
 EXPOSE 1313
 
 # Build the static site when the container starts
-CMD ["hugo", "server", "--baseUrl=dvdwireguard.ddns.net", "--bind", "0.0.0.0"]
+CMD ["hugo", "server", "--bind", "0.0.0.0"]

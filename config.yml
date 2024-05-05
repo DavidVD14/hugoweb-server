@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "http://dvdwireguard.ddns.net/"
 languageCode: en-us
 title: Malta E-Store
 theme: hugo-PaperMod
