@@ -14,4 +14,4 @@ COPY . .
 EXPOSE 1313
 
 # Build the static site when the container starts
-CMD ["hugo", "server", "--bind", "0.0.0.0"]
+CMD ["hugo", "server", "--bind", "192.168.10.100"]
