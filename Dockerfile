@@ -15,5 +15,3 @@ EXPOSE 1313
 
 # Build the static site when the container starts
 CMD ["hugo", "server", "--bind", "0.0.0.0"]
-
-# This is a test.
