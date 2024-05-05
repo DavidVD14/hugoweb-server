@@ -1,8 +1,17 @@
-# Base Docker image
-FROM klakegg/hugo
+# Use the official Alpine Linux as base image
+FROM alpine:latest
 
-# Copy web app files to the root of the Apache server
-# COPY ./webapp  /usr/local/apache2/htdocs/
+# Install Hugo
+RUN apk add --no-cache hugo
 
-# Expose port 80 for HTTP Traffic
-EXPOSE 80
+# Set the working directory inside the container
+WORKDIR /site
+
+# Copy the source files of your Hugo website into the container
+COPY . .
+
+# Expose port 1313 (default Hugo port) for serving the site
+EXPOSE 1313
+
+# Build the static site when the container starts
+CMD ["hugo", "server", "--bind", "0.0.0.0"]
