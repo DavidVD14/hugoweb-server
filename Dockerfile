@@ -1,5 +1,5 @@
 # Base Docker image
-FROM klakegg/hugo:latest
+FROM klakegg/hugo
 
 # Copy web app files to the root of the Apache server
 # COPY ./webapp  /usr/local/apache2/htdocs/
