@@ -11,6 +11,7 @@ WORKDIR /site
 COPY . .
 
 # Expose port 1313 (default Hugo port) for serving the site
+EXPOSE 80
 EXPOSE 1313
 
 # Build the static site when the container starts
