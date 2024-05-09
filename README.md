@@ -1,4 +1,4 @@
-This server is used to host a website using Hugo.
+This server is used to host a website using Hugo for my thesis dissertation.
 
 Steps to reinitilise the theme in the repository
 
