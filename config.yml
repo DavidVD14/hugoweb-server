@@ -1,7 +1,7 @@
 baseURL: ""
 languageCode: en-us
 title: Malta E-Store
-theme: hugo-PaperMod
+theme: [hugo-PaperMod]
 
 params:
   homeInfoParams:
