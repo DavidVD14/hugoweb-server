@@ -9,17 +9,17 @@
     <lastBuildDate>Tue, 19 Mar 2024 18:32:32 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
+      <title>This is the first post</title>
       <link>//localhost:1313/posts/first/</link>
       <pubDate>Tue, 19 Mar 2024 18:32:32 +0100</pubDate>
       <guid>//localhost:1313/posts/first/</guid>
       <description>This is main header This is second heading This is a paragraph used to test the contents of the webiste.</description>
     </item>
     <item>
-      <title>Second</title>
-      <link>//localhost:1313/posts/first-copy/</link>
+      <title>This is the second post</title>
+      <link>//localhost:1313/posts/second/</link>
       <pubDate>Tue, 19 Mar 2024 18:32:32 +0100</pubDate>
-      <guid>//localhost:1313/posts/first-copy/</guid>
+      <guid>//localhost:1313/posts/second/</guid>
       <description>This is main header This is second heading This is the second post of the website</description>
     </item>
   </channel>
