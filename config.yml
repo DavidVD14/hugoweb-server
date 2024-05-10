@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "http://technologymalta.com"
 languageCode: en-us
 title: Malta E-Store
 theme: [hugo-PaperMod]
