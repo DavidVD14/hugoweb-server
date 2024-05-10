@@ -22,5 +22,13 @@
       <guid>http://localhost:1313/posts/second/</guid>
       <description>This is main header This is second heading This is the second post of the website</description>
     </item>
+    <item>
+      <title>This is the third post.</title>
+      <link>http://localhost:1313/posts/third/</link>
+      <pubDate>Tue, 19 Mar 2024 18:32:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/third/</guid>
+      <description>This is main header This post is only intended as a test.
+This is second heading This is a paragraph used to test the contents of the webiste.</description>
+    </item>
   </channel>
 </rss>
