@@ -1,4 +1,4 @@
-baseURL: "http://technologymalta.com"
+baseURL: http://0.0.0.0:1313
 languageCode: en-us
 title: Malta E-Store
 theme: [hugo-PaperMod]
