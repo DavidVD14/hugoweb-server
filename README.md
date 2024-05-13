@@ -24,3 +24,8 @@ To build and run image:
 
     # Run Docker locally
     docker run davtek/hugoweb:latest
+
+
+sources
+
+[Caddy HTTP formatter](https://devopsdirective.com/posts/2020/02/hugo-and-caddy-on-gcp/#choosing-a-hosting-solution).
