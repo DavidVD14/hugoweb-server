@@ -7,3 +7,15 @@ Steps to reinitilise the theme in the repository
 
     # Update the theme
     git submodule update
+
+
+To build and run image
+
+    # Build the image
+    docker build -t davtek/hugoweb:latest .
+
+    # Push image to dockerhub
+    docker push davtek/hugoweb:latest
+
+    # Run Docker locally
+    docker run davtek/hugoweb:latest
