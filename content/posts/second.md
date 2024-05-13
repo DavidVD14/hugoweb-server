@@ -3,7 +3,7 @@ title: "This is the second post"
 date: 2024-03-19T18:32:32+01:00
 draft: false
 cover:
-    image: Hello-world.png
+    image: img/Hello-world.png
     alt: 'This is a post image'
     caption: 'This is a test image'
 tags: ["html", "css"]

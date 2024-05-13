@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://0.0.0.0:80/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:80/tags/css/</loc>
+    <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:80/tags/html/</loc>
+    <loc>http://localhost:1313/tags/html/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:80/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:80/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:80/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:80/categories/tech/</loc>
+    <loc>http://localhost:1313/categories/tech/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:80/posts/first/</loc>
+    <loc>http://localhost:1313/posts/first/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:80/posts/second/</loc>
+    <loc>http://localhost:1313/posts/second/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:80/posts/third/</loc>
+    <loc>http://localhost:1313/posts/third/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:80/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url>
 </urlset>
