@@ -1,9 +1,5 @@
-# Use the official Alpine Linux as base image
-FROM alpine:latest
-
-# Initilise Caddy
-#FROM abiosoft/caddy
-#COPY ./public /srv
+# Stage 1: Build the Hugo site
+FROM alpine:latest AS hugo-builder
 
 # Install Hugo
 RUN apk add --no-cache hugo
@@ -14,13 +10,17 @@ WORKDIR /site
 # Copy the source files of your Hugo website into the container
 COPY . .
 
-# Expose port 1313 (default Hugo port) for serving the site
-#EXPOSE 80
-EXPOSE 1313
+# Build the static site
+RUN hugo
 
-# Build the static site when the container starts
-CMD ["hugo", "server", "--bind", "0.0.0.0"]
-# CMD ["hugo", "server", "--bind", "0.0.0.0", "--port", "80"]
+# Stage 2: Serve the site with Caddy
+FROM caddy:latest
 
+# Copy the built site from the previous stage
+COPY --from=hugo-builder /site/public /srv
 
-# "--baseURL=http://0.0.0.0:1313/",
+# Expose port 80 (default Caddy port)
+EXPOSE 80
+
+# Start Caddy server
+CMD ["caddy", "file-server", "--root", "/srv"]
