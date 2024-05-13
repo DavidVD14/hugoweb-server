@@ -1,4 +1,5 @@
 ![Alt text](Readme-content/mcast.png)
+![Alt text](Readme-content/hugo.png)
 
 This server is used to host a website using Hugo for my thesis dissertation.
 
