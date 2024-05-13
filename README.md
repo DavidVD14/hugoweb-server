@@ -24,6 +24,3 @@ To build and run image:
 
     # Run Docker locally
     docker run davtek/hugoweb:latest
-
-
-Hello world test
