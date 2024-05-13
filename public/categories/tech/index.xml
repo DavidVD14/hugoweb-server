@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tech on Malta E-Store</title>
-    <link>http://localhost:1313/categories/tech/</link>
+    <link>http://0.0.0.0:80/categories/tech/</link>
     <description>Recent content in Tech on Malta E-Store</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Mar 2024 18:32:32 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://0.0.0.0:80/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This is the first post</title>
-      <link>http://localhost:1313/posts/first/</link>
+      <link>http://0.0.0.0:80/posts/first/</link>
       <pubDate>Tue, 19 Mar 2024 18:32:32 +0100</pubDate>
-      <guid>http://localhost:1313/posts/first/</guid>
+      <guid>http://0.0.0.0:80/posts/first/</guid>
       <description>This is main header This is second heading This is a paragraph used to test the contents of the webiste.</description>
     </item>
     <item>
       <title>This is the second post</title>
-      <link>http://localhost:1313/posts/second/</link>
+      <link>http://0.0.0.0:80/posts/second/</link>
       <pubDate>Tue, 19 Mar 2024 18:32:32 +0100</pubDate>
-      <guid>http://localhost:1313/posts/second/</guid>
+      <guid>http://0.0.0.0:80/posts/second/</guid>
       <description>This is main header This is second heading This is the second post of the website</description>
     </item>
     <item>
       <title>This is the third post.</title>
-      <link>http://localhost:1313/posts/third/</link>
+      <link>http://0.0.0.0:80/posts/third/</link>
       <pubDate>Tue, 19 Mar 2024 18:32:32 +0100</pubDate>
-      <guid>http://localhost:1313/posts/third/</guid>
+      <guid>http://0.0.0.0:80/posts/third/</guid>
       <description>This is main header This post is only intended as a test.
 This is second heading This is a paragraph used to test the contents of the webiste.</description>
     </item>
