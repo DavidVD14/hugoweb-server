@@ -1,5 +1,5 @@
 ![Alt text](Readme-content/mcast.png)
-![<img src="./Readme-content/hugo.png" width="30" />]
+!<img src="./Readme-content/hugo.png" width="100" />
 
 This server is used to host a website using Hugo for my thesis dissertation.
 
