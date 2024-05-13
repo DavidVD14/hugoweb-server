@@ -2,7 +2,7 @@
 FROM alpine:latest
 
 # Initilise Caddy
-FROM abiosoft/caddy:1.0.3
+FROM abiosoft/caddy
 COPY ./public /srv
 
 # Install Hugo
