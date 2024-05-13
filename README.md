@@ -1,4 +1,4 @@
-!https://github.com/DaveVD14/hugoweb-server/blob/master/mcast.png?raw=true
+![Alt text](Readme-content/mcast.png)
 
 This server is used to host a website using Hugo for my thesis dissertation.
 
