@@ -1,5 +1,6 @@
-!<img src="./Readme-content/mcast.png" width="400" />
-!<img src="./Readme-content/hugo.png" width="300" />
+<img src="./Readme-content/mcast.png" width="400" />  
+
+<img src="./Readme-content/hugo.png" width="300" />
 
 This server is used to host a website using Hugo for my thesis dissertation.
 
