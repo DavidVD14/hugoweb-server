@@ -1,6 +1,8 @@
+![alt text](https://github.com/DaveVD14/hugoweb-server/blob/master/mcast.png?raw=true
+
 This server is used to host a website using Hugo for my thesis dissertation.
 
-Steps to reinitilise the theme in the repository
+Steps to reinitilise the theme in the repository:
 
     # Initilise the theme
     git submodule init
@@ -9,7 +11,7 @@ Steps to reinitilise the theme in the repository
     git submodule update
 
 
-To build and run image
+To build and run image:
 
     # Build the image
     docker build -t davtek/hugoweb:latest .
