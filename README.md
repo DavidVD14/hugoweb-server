@@ -11,7 +11,7 @@ Steps to reinitilise the theme in the repository:
     git submodule init
 
     # Update the theme
-    git submodule update
+    git submodule update --remote --merge
 
 
 To build and run image:

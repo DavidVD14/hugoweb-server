@@ -2,8 +2,8 @@
 FROM alpine:latest
 
 # Initilise Caddy
-FROM abiosoft/caddy
-COPY ./public /srv
+#FROM abiosoft/caddy
+#COPY ./public /srv
 
 # Install Hugo
 RUN apk add --no-cache hugo
