@@ -29,3 +29,5 @@ To build and run image:
 sources
 
 [Caddy HTTP formatter](https://devopsdirective.com/posts/2020/02/hugo-and-caddy-on-gcp/#choosing-a-hosting-solution).
+
+[Install WireGuard VPN Ubuntu](https://operavps.com/docs/install-wireguard-on-ubuntu/)
