@@ -1,6 +1,6 @@
 baseURL: ""
 languageCode: en-us
-title: Malta E-Store
+title: Technology Malta
 theme: [hugo-PaperMod]
 builddrafts: true
 
