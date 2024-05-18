@@ -20,7 +20,7 @@ FROM caddy:latest
 COPY --from=hugo-builder /site/public /srv
 
 # Expose ports 80 and 443 (default HTTP and HTTPS ports for Caddy)
-EXPOSE 80 443
+EXPOSE 80
 
 # Create a Caddyfile for the configuration
 COPY Caddyfile /etc/caddy/Caddyfile
