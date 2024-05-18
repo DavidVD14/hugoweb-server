@@ -23,4 +23,4 @@ COPY --from=hugo-builder /site/public /srv
 EXPOSE 80
 
 # Start Caddy server
-CMD ["caddy", "file-server", "--root", "/srv"]
+CMD ["caddy", "file-server", "--root", "/srv", "--listen", ":80"]
