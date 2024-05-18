@@ -19,11 +19,8 @@ FROM caddy:latest
 # Copy the built site from the previous stage
 COPY --from=hugo-builder /site/public /srv
 
-# Expose ports 80 and 443 (default HTTP and HTTPS ports for Caddy)
+# Expose port 80 (default Caddy port)
 EXPOSE 80
 
-# Create a Caddyfile for the configuration
-COPY Caddyfile /etc/caddy/Caddyfile
-
 # Start Caddy server
-CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile"]
+CMD ["caddy", "file-server", "--root", "/srv", "--listen", ":80"]
