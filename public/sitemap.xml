@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2024-05-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2024-05-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2024-04-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/css/</loc>
+    <loc>/tags/css/</loc>
     <lastmod>2024-04-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/html/</loc>
+    <loc>/tags/html/</loc>
     <lastmod>2024-04-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2024-04-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/tech/</loc>
+    <loc>/categories/tech/</loc>
     <lastmod>2024-04-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/second/</loc>
+    <loc>/posts/second/</loc>
     <lastmod>2024-04-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/first/</loc>
+    <loc>/posts/first/</loc>
     <lastmod>2024-03-19T18:32:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/loaderio-10f9277a5523bb6c6cab9ab77242d6fb/</loc>
+    <loc>/loaderio-ba140302bb70de7146011a81ee44d084/</loc>
   </url><url>
-    <loc>//localhost:1313/archives/</loc>
+    <loc>/archives/</loc>
   </url>
 </urlset>
